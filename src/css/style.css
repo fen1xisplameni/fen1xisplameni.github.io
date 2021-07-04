@@ -33,7 +33,7 @@ nav {
 .main {
     width: 150%;
     height: calc(100% - 60px);
-    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
+    background: url(../img/ten.png) 0% 104%/auto auto no-repeat, url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
 }
 
 .title__conteiner {
@@ -67,10 +67,9 @@ nav {
 }
 
 .about__me {
-
     width: 150%;
     height: 100%;
-    background: url(../img/4erta.jpg) 50% 18%/auto auto no-repeat, url(../img/photo.png) 50% 32%/auto auto no-repeat, url(../img/fonoviy_sloi.jpg) center/cover no-repeat;
+    background: url(../img/4erta.jpg) 50% 18%/auto auto no-repeat, url(../img/fonoviy_sloi.jpg) center/cover no-repeat;
 }
 
 .conteiner h3 {
@@ -80,16 +79,21 @@ nav {
     color: #263244;
 }
 
-.paragraf{
-     margin: 320px 590px 0px 594px;
+.paragraf {
+    float: left;
+    margin: 25px 590px 0px 594px;
+    text-align: left;
+}
+
+.paragraf p {
+    margin: 0px 0px 41px 0px;
     font-size: 15px;
     color: #79878d;
-    float: left;
-    text-align: center;
-    
 }
-.paragraf p{
-    margin: 0px 0px 41px 0px;
+
+.conteiner img {
+    float: left;
+    margin: 106px 0px 0px 845px;
 }
 
 .conteiner input {
@@ -107,10 +111,10 @@ nav {
 .what_can_i_do {
     width: 150%;
     height: 52%;
-    background: url(../img/gramophon.png) 71% 60%/auto auto no-repeat , url(../img/rocket.png) 56% 60%/auto auto no-repeat , url(../img/znak.png) 41% 60%/auto auto no-repeat , url(../img/nout.png) 27% 60%/auto auto no-repeat ,  url(../img/4erta.jpg) 51% 35%/auto auto no-repeat , url(../img/img_Fon.jpg) center/cover no-repeat;
+    background: url(../img/gramophon.png) 71% 60%/auto auto no-repeat, url(../img/rocket.png) 56% 60%/auto auto no-repeat, url(../img/znak.png) 41% 60%/auto auto no-repeat, url(../img/nout.png) 27% 60%/auto auto no-repeat, url(../img/4erta.jpg) 51% 35%/auto auto no-repeat, url(../img/img_Fon.jpg) center/cover no-repeat;
 }
 
-.what h3{
+.what h3 {
     font-size: 25px;
     margin: 103px 0px 0px 894px;
     float: left;
@@ -122,12 +126,13 @@ nav {
     margin: 190px 400px 0px 400px;
 }
 
-.My__abilitiesfirst li{
+.My__abilitiesfirst li {
     float: left;
     font-size: 15px;
     color: #cf7600;
     text-align: center;
     margin: 0px 85px 0px 85px;
+
 }
 
 .My__abilities {
@@ -135,50 +140,53 @@ nav {
     margin: 10px 250px 0px 400px;
 }
 
-.My__abilities li{
+.My__abilities li {
     float: left;
     font-size: 15px;
     color: #3f495a;
     text-align: center;
-     margin: 0px 40px 0px 40px;
-   }
+    margin: 0px 40px 0px 40px;
+    line-height: 20px;
+}
 
-.cases{
+.fon {
     width: 150%;
     height: 100%;
-    background:  url(../img/4erta.jpg) 50.7% 18%/auto auto no-repeat , url(../img/sloy.png) center/cover no-repeat;
+    background: url(../img/4erta.jpg) 50.7% 17%/auto auto no-repeat, url(../img/fon2.png) center/cover no-repeat;
 }
 
-.cases img{
-    float: left;
-    margin: 40px 360px 0px 0px;
-}
-
-.case h3{
-  font-size: 25px;
+.case h3 {
+    font-size: 25px;
     margin: 103px 0px 0px 920px;
     float: left;
     color: #263244;
 }
 
-.example p{
+.example p {
     float: left;
-    margin: 69px 600px 0px 590px; 
+    margin: 69px 600px 0px 590px;
     color: #79878d;
+}
+
+.fon img {
+    float: left;
+    margin-top: 20px;
 }
 
 .client {
     float: left;
-    margin: 40px 0px 0px 380px;
+    margin: -220px 0px 0px 380px;
 }
 
-.client p{
+.client p {
     font-size: 15px;
     text-align: left;
     line-height: normal;
+    color: #384354;
+    line-height: 20px;
 }
-    
-.client input{
+
+.client input {
     height: 40px;
     text-align: center;
     border: 2px solid #63b5ae;
@@ -191,9 +199,51 @@ nav {
     margin: 23px 0px 0px 0px;
 }
 
-.name__project{
+.name__project {
     float: left;
-    margin: auto 390px 0px 660px;
+    margin: -220px 390px 0px 660px;
+    font-size: 15px;
+    color: #384354;
+    line-height: 20px;
 }
-   
+
+.claculator2 {
+    float: left;
+    margin: 0px 0px 0px 800px;
+    text-align: left;
+}
+
+.price {
+    font-size: 22px;
+    float: left;
+    color: #1c2534;
+    margin-bottom: 40px;
+}
  
+.calculator {
+    margin: 0px 0px 0px -200px;
+}
+
+.calculator h3 {
+   text-align: left;
+    margin: 30px 0px 30px 0px;
+    font-weight: 600;
+    color: #1c2534 ;
+
+}
+
+.calculator select{
+   height: 40px;
+    text-align: left;
+    border: 2px solid #6d7682;
+    background: #eee;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 700px 0px 0px;
+}
+
+.stat{
+    width: 150%;
+    height: calc(100% - 70%);
+    background: url(../img/fon3.jpg) center/cover no-repeat; 
+}

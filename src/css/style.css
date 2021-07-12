@@ -149,6 +149,11 @@ nav {
     line-height: 20px;
 }
 
+.cases {
+    height: 100%;
+    background: url(../img/4erta.jpg) 52% 16.7%/auto auto no-repeat;
+}
+
 .cases h3 {
     font-size: 25px;
     margin: 103px 0px 0px 616px;
@@ -156,32 +161,32 @@ nav {
     color: #263244;
 }
 
-.cases {
-    background: url(../img/4erta.jpg) 52% 13.7%/auto auto no-repeat;
-}
-
 .example p {
     float: left;
-    margin: 40px 0px 0px 320px;
+    margin: 60px 0px 0px 320px;
     color: #79878d;
 }
 
-.cases img {
-    float: left;
-    height: 99;
-    width: 99%;
+.client img {
+    height: 100%;
+    width: 100%;
     margin: 30px 0px 0px -150px;
-}
 
-.client {
-    float: left;
-    margin: -200px 0px 0px 150px;
 }
 
 .client p {
+    margin: -110px 0px 0px 150px;
     font-size: 15px;
     text-align: left;
     line-height: normal;
+    color: #384354;
+    line-height: 20px;
+}
+
+.nazvanie {
+    float: left;
+    margin: -45px 150px 0px 460px;
+    font-size: 15px;
     color: #384354;
     line-height: 20px;
 }
@@ -196,24 +201,17 @@ nav {
     font-size: 15px;
     font-weight: bold;
     padding: 0px 40px 0px 40px;
-    margin: 23px 0px 0px 0px;
-}
-
-.name__project {
-    float: left;
-    margin: -200px 147px 0px 400px;
-    font-size: 15px;
-    color: #384354;
-    line-height: 20px;
+    margin: 75px 0px 0px 150px;
 }
 
 .claculator2 {
-    float: left;
-    margin: 0px 0px 0px 570px;
-    text-align: left;
+    height: 77%;
+    width: 100%;
+    background: none;
 }
 
 .price {
+    margin: 100px 0px 0px 570px;
     font-size: 22px;
     float: left;
     color: #1c2534;
@@ -221,11 +219,11 @@ nav {
 }
 
 .calculator {
-    margin: 20px 0px 0px -200px;
+    float: left;
+    margin: 20px 200px 0px 350px;
 }
 
 .calculator h3 {
-    text-align: start;
     margin: 50px 0px 20px 0px;
     font-weight: 600;
     color: #1c2534;
@@ -245,22 +243,126 @@ nav {
 .calculator img {
     float: left;
     height: 100%;
-    width: 71%;
-    margin: 25px 0px 0px 0px;
+    width: 88.7%;
+    margin-top: 25px;
+
 }
 
 .poditog {
     float: left;
-    margin: 50px 0px 0px -636px;
+    margin: 20px 0px 0px 350px;
     font-size: 16px;
     white-space: nowrap;
     word-spacing: 530px;
 }
 
-.poditog p{
-    
-    margin-top: 10px;
+.stat {
+    width: 100%;
+    height: 50%;
+    background: url(../img/smail.png) 17.5% 58%/auto auto no-repeat, url(../img/skobku.png) 38% 58%/auto auto no-repeat, url(../img/galochka.png) 59.7% 58%/auto auto no-repeat, url(../img/kubok.png) 81% 58%/auto auto no-repeat, url(../img/4erta.jpg) 52% 30%/auto auto no-repeat, url(../img/fon3.jpg) center/cover no-repeat;
 }
 
+.stat h3 {
+    font-size: 25px;
+    margin: 80px 0px 0px 516px;
+    float: left;
+    color: #263244;
+}
 
- 
+.my__work {
+    float: left;
+    margin: 200px 0px 0px 100px;
+}
+
+.my__work b{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.my__work li {
+    float: left;
+    font-size: 15px;
+    color: #3f495a;
+    text-align: center;
+    margin:   0px 70px 0px 60px;
+    line-height: 30px;
+}
+
+.reviews {
+    height: 60%;
+    width: 100%;
+    background: url(../img/4erta.jpg) 52.3% 30%/auto auto no-repeat;
+    
+}
+
+.reviews h3{
+    font-size: 25px;
+    margin: 103px 0px 0px 606px;
+    float: left;
+    color: #263244;
+}
+
+.reviews img{
+    margin: 80px 500px 0px  600px ;
+}
+
+.reviews p{
+     float: left;
+    margin: 40px 320px 0px 320px;
+    color: #79878d;
+    text-align: center;
+}
+
+.reviewsed p{
+    float: left;
+    margin: 30px 400px 0px 515px ;
+    color: #79878d;
+    text-align: center;
+}
+
+.input{
+    margin: 50px 0px 0px  610px;
+    float: left;
+}
+
+.input input{
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.my__contact {
+  height: 700px;
+    width: 100%;
+    background: url(../img/%D0%B3%D0%B5%D0%BE.png) 31% 40%/auto auto no-repeat , url(../img/konvert.png) 53% 40%/auto auto no-repeat , url(../img/truba.png) 75% 40%/auto auto no-repeat , url(../img/4erta.jpg) 52.5% 23%/auto auto no-repeat , url(../img/fon4.jpg) center/cover no-repeat;
+}
+
+.my__contact h3{
+   font-size: 25px;
+    margin: 103px 0px 0px 556px;
+    float: left;
+    color: #fff; 
+}
+
+.my__contact p{
+    float: left;
+    margin: 70px 350px 0px 400px ;
+    color: #fff;
+    text-align: center;
+}
+
+.my__contact ul{
+    margin: 0px 0px 0px 196px;
+}
+
+.my__contact li{
+    float: left;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin:   73px  0px 0px 125px;
+    line-height: 15px; 
+}
+
+.my__contact id1 {
+    margin: 50px 0px 0px 200px;
+}
